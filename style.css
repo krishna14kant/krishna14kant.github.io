@@ -120,7 +120,7 @@ nav {
 .nav-link {
     font-size: 1.6rem;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
 
 .hero {
@@ -166,7 +166,7 @@ nav {
 }
 
 .main-message p {
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 
 .btn {
