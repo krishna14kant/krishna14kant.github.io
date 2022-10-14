@@ -1,0 +1,49 @@
+body{
+    background-image: url("bg\ animation.jpg");
+    font: 600 14px/24px "Open Sans";
+}
+
+  .box {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 50px;
+    margin: 50px;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+ transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+  }
+  .box:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+  }
+
+  .button {
+	background-color: darkslategray;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 0.6;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+  }
+    
+  .button:hover {opacity: 1}
+
+  .text_effects{
+	text-shadow:2px 2px 2px goldenrod;
+	transition: transform 2s;
+}
+
+.text_effects:hover{
+	transform: rotate(180deg);
+}
